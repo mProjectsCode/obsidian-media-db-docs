@@ -100,8 +100,9 @@ body {
     font-weight:             900;
     font-size:               3.5em;
     color:                   #ffffff;
-    background:              #775cff;
-    background:              linear-gradient(150deg, rgba(255,79,245,1) 0%, rgba(179,103,230,1) 25%, rgba(119,92,255,1) 50%, rgba(72,113,232,1) 75%, rgba(79,197,255,1) 100%);
+    background:              #9CECFB;  /* fallback for old browsers */
+    background:              -webkit-linear-gradient(135deg, #0052D4, #65C7F7, #9CECFB);  /* Chrome 10-25, Safari 5.1-6 */
+    background:              linear-gradient(135deg, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

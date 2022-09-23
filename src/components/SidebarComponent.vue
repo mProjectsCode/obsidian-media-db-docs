@@ -55,6 +55,21 @@ export default defineComponent({
                     active: false,
                 },
                 {
+                    name: 'Features',
+                    route: '/features',
+                    subItems: [{
+                        name: 'Advanced Search',
+                        id: 'advanced-search',
+                    }, {
+                        name: 'ID Search',
+                        id: 'id-search',
+                    }, {
+                        name: 'Bulk Import',
+                        id: 'bulk-import',
+                    }],
+                    active: false,
+                },
+                {
                     name: 'Website Layout Test',
                     route: '/test',
                     subItems: [],
