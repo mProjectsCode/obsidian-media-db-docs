@@ -1,0 +1,1 @@
+# obsidian-media-db-docs
